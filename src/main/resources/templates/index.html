@@ -11,7 +11,6 @@
             <th>id</th>
             <th>name</th>
             <th>lastname</th>
-            <th>email</th>
             <th>actions</th>
 
 
@@ -20,7 +19,6 @@
             <td th:utext="${user.getId()}">...</td>
             <td th:utext="${user.getName()}">...</td>
             <td th:utext="${user.getLastname()}">...</td>
-            <td th:utext="${user.getEmail()}">...</td>
             <td>
                 <a th:href="@{/users/edit/{id}(id=${user.getId()})}">Edit </a>
                 <br>
