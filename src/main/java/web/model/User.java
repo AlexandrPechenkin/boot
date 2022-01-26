@@ -28,8 +28,7 @@ public class User {
     public User() {
     }
 
-    public User(long id, String name, String lastname, String email) {
-        this.id = id;
+    public User(String name, String lastname, String email) {
         this.name = name;
         this.lastname = lastname;
         this.email = email;
